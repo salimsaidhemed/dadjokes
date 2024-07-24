@@ -1,0 +1,21 @@
+# This is a CODEOWNERS file. It defines the individuals or teams responsible for code in this repository.
+# For more information about CODEOWNERS, visit https://help.github.com/articles/about-codeowners/
+
+# The following line sets the default code owners for the entire repository.
+# If you want to change code owners for specific directories or files, specify those after this line.
+*       @salimsaidhemed
+
+# The following lines assign code owners to specific directories or files.
+# These owners will be automatically requested for review when code is changed in their respective areas.
+
+# The docs/ directory contains all documentation files.
+docs/*  @salimsaidhemed
+
+# The src/ directory contains all source code files.
+src/*   @salimsaidhemed
+
+# The tests/ directory contains all test files.
+tests/* @salimsaidhemed
+
+# Specific file example
+README.md @salimsaidhemed
