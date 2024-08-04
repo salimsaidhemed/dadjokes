@@ -2,6 +2,12 @@ name: Code Linter Action
 run-name: This Action will Enforce Python style Guidelines 🚀
 
 on: [push]
+ push:
+    branches: 
+        - main
+ pull_request:
+    branches:
+        - main
 
 jobs:
     Lint:
@@ -16,4 +22,3 @@ jobs:
               run: |
                 ls ${{ github.workspace }}
             - run: echo "🍏 This job's status is ${{ job.status }}."
-            
