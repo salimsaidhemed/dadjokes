@@ -3,9 +3,9 @@ run-name: This Action will Enforce Python style Guidelines 🚀
 
 on:
     push:
-      branches: [ $default-branch ]
+      branches: [ main ]
     pull_request:
-      branches: [ $default-branch ]
+      branches: [ main ]
 
 jobs:
     Lint:
