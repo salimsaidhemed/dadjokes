@@ -1,0 +1,19 @@
+name: Code Linter Action
+run-name: This Action will Enforce Python style Guidelines 🚀
+
+on: [push]
+
+jobs:
+    Lint:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+            - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
+            - name: Check out repository code
+              uses: actions/checkout@v4
+            - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
+            - name: List the files in the repository
+              run: |
+                ls ${{ github.workspace }}
+            - run: echo "🍏 This job's status is ${{ job.status }}."
+            

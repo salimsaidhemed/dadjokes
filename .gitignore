@@ -1,0 +1,4 @@
+.venv
+*.deb
+.debhelper
+.pybuild

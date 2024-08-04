@@ -1,0 +1,10 @@
+Package: dadjokes
+Version: 1.0-1
+Architecture: all
+Maintainer: Salim Said Hemed <salimsaidhemed1989@gmail.com>
+Installed-Size: 34
+Section: misc
+Priority: optional
+Homepage: https://github.com/salimsaidhemed/dadjokes
+Description: A CLI app that tells random dad jokes
+ This simple command-line application tells a random dad joke every time you run it.

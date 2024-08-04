@@ -1,2 +1,3 @@
 src/dadjokes.py usr/bin/dadjokes
 src/dadjokes.txt usr/share/dadjokes
+debian/dadjokes.1 usr/share/man/man1/
