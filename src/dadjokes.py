@@ -9,9 +9,11 @@ def load_jokes():
     with open(JOKE_FILE, 'r') as file:
         return [line.strip() for line in file if line.strip()]
 
+
 def get_random_joke(jokes):
     """Return a random joke from the list of jokes."""
     return random.choice(jokes)
+
 
 if __name__ == "__main__":
     jokes = load_jokes()
