@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 import random
 
-JOKE_FILE = 'dadjokes.txt'
+JOKE_FILE = '/usr/share/dadjokes'
+
 
 def load_jokes():
     """Load jokes from the specified file."""
